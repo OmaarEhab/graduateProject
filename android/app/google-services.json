@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "980770384986",
+    "project_id": "sams-graduate-project",
+    "storage_bucket": "sams-graduate-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980770384986:android:86f1bfe0b8a46f0a5d7c63",
+        "android_client_info": {
+          "package_name": "com.OAO.SAMS_Clubs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980770384986-b8i8cqqivkcim0u36ujc6vie0hidt3be.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIRR6HDm3tVdGB5iz8-c256Y1I7emFdYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980770384986-b8i8cqqivkcim0u36ujc6vie0hidt3be.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
