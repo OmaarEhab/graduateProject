@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:projtest/Routes/Rally.dart';
 
 class ItemDashBoard extends StatelessWidget {
   final String title, image, button;
@@ -19,13 +18,13 @@ class ItemDashBoard extends StatelessWidget {
           builder: (context) => AlertDialog(
             title: Text(title),
             content: Image.asset(
-              'images/$image',
+              'assets/images/$image',
               height: 200,
             ),
             actions: [
               TextButton(
                 onPressed: () {
-                  Navigator.pushNamed(context, '$button');
+                  Navigator.pushNamed(context, button);
                 },
                 child: const Text('More Information'),
               ),
@@ -44,7 +43,7 @@ class ItemDashBoard extends StatelessWidget {
             borderRadius: BorderRadius.circular(10),
             boxShadow: [
               BoxShadow(
-                offset: Offset(0, 5),
+                offset: const Offset(0, 5),
                 color: Colors.grey.shade300,
                 spreadRadius: 2,
                 blurRadius: 5,
@@ -54,7 +53,7 @@ class ItemDashBoard extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'images/$image',
+              'assets/images/$image',
               height: 60,
               fit: BoxFit.cover,
             ),

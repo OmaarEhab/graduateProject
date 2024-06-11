@@ -27,7 +27,7 @@ class _WelcomeState extends State<Welcome> {
             SingleChildScrollView(
               child: Column(
                 children: [
-                  Container(
+                  SizedBox(
                     height: 180,
                     child: Image.asset('images/CLUB (3).png'),
                   ),

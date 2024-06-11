@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "980770384986",
-    "project_id": "sams-graduate-project",
-    "storage_bucket": "sams-graduate-project.appspot.com"
+    "project_number": "477421556764",
+    "project_id": "samsians-52e59",
+    "storage_bucket": "samsians-52e59.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:980770384986:android:86f1bfe0b8a46f0a5d7c63",
+        "mobilesdk_app_id": "1:477421556764:android:ebba407c332af29235fbd9",
         "android_client_info": {
           "package_name": "com.OAO.SAMS_Clubs"
         }
       },
       "oauth_client": [
         {
-          "client_id": "980770384986-b8i8cqqivkcim0u36ujc6vie0hidt3be.apps.googleusercontent.com",
+          "client_id": "477421556764-0u8c6svjoo3pc7m454k9duajj9vp6a1p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.OAO.SAMS_Clubs",
+            "certificate_hash": "7c198f3295de4227c0c6c6f7629734c1fcf1cd07"
+          }
+        },
+        {
+          "client_id": "477421556764-pi8jv6ld7t33en6tk6kfbi2skdqvo4or.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCIRR6HDm3tVdGB5iz8-c256Y1I7emFdYc"
+          "current_key": "AIzaSyCDE_4SFoHFjhK_pyDZxg8aj7BCT7cJRC4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "980770384986-b8i8cqqivkcim0u36ujc6vie0hidt3be.apps.googleusercontent.com",
+              "client_id": "477421556764-pi8jv6ld7t33en6tk6kfbi2skdqvo4or.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

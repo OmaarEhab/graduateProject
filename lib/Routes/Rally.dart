@@ -6,27 +6,6 @@ class Rally extends StatelessWidget {
 
   static const String screenRoute = 'Rally';
 
-  Container clubContainer(
-      {required Color containerColor, required String containerText}) {
-    return Container(
-      decoration: BoxDecoration(
-        color: containerColor,
-        borderRadius: BorderRadius.circular(14),
-      ),
-      width: double.infinity,
-      height: 45,
-      child: Padding(
-        padding: const EdgeInsets.all(10),
-        child: Text(
-          containerText,
-          style: const TextStyle(
-              fontWeight: FontWeight.bold, fontSize: 18, color: Colors.white),
-          textAlign: TextAlign.center,
-        ),
-      ),
-    );
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -111,7 +90,11 @@ class Rally extends StatelessWidget {
                 height: 18,
               ),
               InkWell(
-                onTap: () {},
+                onTap: () {
+                  appLaunchUrl(
+                    Uri.parse('https://forms.gle/dSeUjktHmCDr6KsP6'),
+                  );
+                },
                 child: Container(
                   decoration: BoxDecoration(
                     color: Colors.green,
@@ -137,5 +120,37 @@ class Rally extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  Container clubContainer({
+    required Color containerColor,
+    required String containerText,
+  }) {
+    return Container(
+      decoration: BoxDecoration(
+        color: containerColor,
+        borderRadius: BorderRadius.circular(14),
+      ),
+      width: double.infinity,
+      height: 45,
+      child: Padding(
+        padding: const EdgeInsets.all(10),
+        child: Text(
+          containerText,
+          style: const TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 18,
+            color: Colors.white,
+          ),
+          textAlign: TextAlign.center,
+        ),
+      ),
+    );
+  }
+
+  Future<void> appLaunchUrl(Uri url) async {
+    if (!await launchUrl(url)) {
+      throw Exception('Could not launch $url');
+    }
   }
 }
