@@ -56,7 +56,9 @@ class _ClubsState extends State<Clubs> {
               Navigator.pushNamed(
                 context,
                 Profile.screenRoute,
-              );
+              ).then((value){
+                getUserData();
+              });
             },
             child: Container(
               clipBehavior: Clip.hardEdge,

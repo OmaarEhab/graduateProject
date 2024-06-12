@@ -7,9 +7,11 @@ import 'package:projtest/Routes/Hult_Prize.dart';
 import 'package:projtest/Routes/Rally.dart';
 import 'package:projtest/Routes/Registration.dart';
 import 'package:projtest/Routes/Sign_in.dart';
+import 'package:projtest/Routes/comments.dart';
 import 'package:projtest/Routes/donation.dart';
 import 'package:projtest/Routes/news_feed.dart';
 import 'package:projtest/Routes/profile.dart';
+import 'package:projtest/Routes/submit_task.dart';
 import 'package:projtest/database/shared_preferences.dart';
 import 'Routes/Welcome.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -54,7 +56,7 @@ class ProjectTest extends StatelessWidget {
         Profile.screenRoute: (context) => const Profile(),
         NewsFeed.screenRoute: (context) => const NewsFeed(),
         Donation.screenRoute: (context) => const Donation(),
-
+        SubmitTask.screenRoute: (context) => const SubmitTask(),
         //Applying pages for student activties (Clubs)
 
         Rally.screenRoute: (context) => const Rally(),

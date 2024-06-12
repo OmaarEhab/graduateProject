@@ -52,7 +52,7 @@ class _RegistrationState extends State<Registration> {
                 const SizedBox(height: 20),
                 SizedBox(
                   height: 180,
-                  child: Image.asset('images/CLUB (3).png'),
+                  child: Image.asset('assets/images/CLUB (3).png'),
                 ),
                 const SizedBox(
                   height: 80,

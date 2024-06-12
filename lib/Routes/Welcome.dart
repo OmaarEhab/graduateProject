@@ -29,7 +29,7 @@ class _WelcomeState extends State<Welcome> {
                 children: [
                   SizedBox(
                     height: 180,
-                    child: Image.asset('images/CLUB (3).png'),
+                    child: Image.asset('assets/images/CLUB (3).png'),
                   ),
                   const SizedBox(height: 12),
                   const Text(
